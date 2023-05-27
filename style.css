@@ -1,0 +1,156 @@
+:root {
+  --color1: #f6623e;
+  --color2: #454545;
+  --color3: #9d9d9d;
+  --color4: #ffffff;
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+/*Хедер*/
+.reg {
+  text-decoration: none;
+  color: var(--color4);
+}
+.reg-opt {
+  font-size: 16px;
+  padding-left: 121px;
+  padding-right: 121px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--color4);
+}
+.reg-line {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color1);
+  height: 50px;
+}
+.logo-header {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  padding-left: 110px;
+  width: 198px;
+  height: 47px;
+  padding-top: 28px;
+}
+.buttons-list {
+  list-style: none;
+  display: flex;
+  align-items: end;
+  padding-left: 270px;
+  justify-content: space-between;
+}
+.b {
+  font-size: 18px;
+  background-color: var(--color4);
+  border: none;
+}
+.o-b {
+  font-size: 18px;
+  background-color: var(--color4);
+  border: none;
+  color: var(--color1);
+}
+.b-p:hover {
+  color: var(--color1);
+}
+/* Мейн */
+.name {
+  text-align: start;
+  font-size: 24px;
+  padding-top: 54px;
+  padding-left: 60px;
+  padding-top: 20.34px;
+}
+hr {
+  color: var(--color3);
+}
+.main-text {
+  display: flex;
+  justify-content: space-around;
+}
+.name-list {
+  list-style: none;
+  padding-left: 60px;
+}
+.biggest {
+  font-size: 54px;
+}
+.second {
+  font-size: 36px;
+}
+.third {
+  font-size: 24px;
+}
+.forth {
+  font-size: 18px;
+}
+.fifth {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.smallest {
+  font-size: 14px;
+}
+/* Футер */
+
+.color-list {
+  padding-top: 48px;
+  list-style: none;
+  display: flex;
+  padding-right: 572px;
+  justify-content: space-between;
+  padding-left: 66px;
+}
+.color-w {
+  width: 176px;
+  height: 224px;
+  background-color: #f9f9f9;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+.color {
+  width: 176px;
+  height: 224px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+.orange {
+  width: 176px;
+  height: 136px;
+}
+.black {
+  width: 176px;
+  height: 136px;
+}
+.grey {
+  width: 176px;
+  height: 136px;
+}
+.white {
+  width: 176px;
+  height: 136px;
+}
+.color-name {
+  font-size: 18px;
+  text-align: left;
+}
+.color-number {
+  font-size: 14px;
+  color: #bcb7b7;
+}
+.footer-button {
+  padding-top: 207px;
+  padding-left: 60px;
+}
+.final-button {
+  border: none;
+  background-color: var(--color1);
+  color: var(--color4);
+  width: 144px;
+  height: 44px;
+}
